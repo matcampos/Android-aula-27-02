@@ -17,11 +17,13 @@
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/f_cil"/>
+            android:text="@string/f_cil"
+            android:id="@+id/rdbFacil"/>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/m_dio"/>
+            android:text="@string/m_dio"
+            android:id="@+id/rdbMedio"/>
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -31,6 +33,7 @@
     <Button android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/salvar"
-        android:onClick="salvar"> </Button>
+        android:onClick="salvar"
+        android:id="@+id/rdbDificl"> </Button>
 
 </LinearLayout>

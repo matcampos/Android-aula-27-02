@@ -4,5 +4,6 @@
     <string name="f_cil">Fácil</string>
     <string name="m_dio">Médio</string>
     <string name="dif_cil">Difícil</string>
+    <string name="nadaSelecionado">Nada selecionado</string>
     <string name="salvar">Salvar</string>
 </resources>
