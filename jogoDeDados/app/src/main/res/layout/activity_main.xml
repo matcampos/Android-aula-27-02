@@ -5,10 +5,28 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:padding="16dp">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:layout_gravity="center_horizontal"/>
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/imgDado"
+    android:src="@drawable/dado1"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PC"
+        android:layout_gravity="center_horizontal"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imgDado"
+        android:id="@+id/imgDado2"
         android:src="@drawable/dado1"
         android:layout_gravity="center_horizontal"
         android:layout_margin="16dp"/>
