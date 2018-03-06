@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="bot_o_1">Botão 1</string>
+    <string name="bot_o_2">botão 2</string>
+    <string name="bot_o_3">Botâo 3</string>
+    <string name="eu_sou_o_texto_dentro_do_relative_layout">Eu sou o texto dentro do relative layout</string>
+    <string name="bot_o_absoluto">Botão absoluto</string>
+    <string name="login">Login</string>
+    <string name="informe_a_sua_senha">Informe a sua senha</string>
+    <string name="informe_o_seu_login">Informe o seu login</string>
+    <string name="qualquer_coisa">Qualquer coisa</string>
+</resources>
