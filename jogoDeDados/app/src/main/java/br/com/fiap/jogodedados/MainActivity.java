@@ -37,11 +37,11 @@ public class MainActivity extends AppCompatActivity {
         imgDado.setImageResource(imgs[sorteado]);
         imgDado2.setImageResource(imgs[sorteado2]);
         if(sorteado > sorteado2){
-            Toast.makeText(this, "O usuário Venceu!!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.text_usuario, Toast.LENGTH_SHORT).show();
         }else if(sorteado2 > sorteado){
-            Toast.makeText(this, "O pc Venceu!!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.text_pc, Toast.LENGTH_SHORT).show();
         }else{
-            Toast.makeText(this, "Empate!!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.text_empate, Toast.LENGTH_SHORT).show();
         }
 
     }

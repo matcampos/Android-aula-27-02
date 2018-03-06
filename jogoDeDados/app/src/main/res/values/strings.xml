@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">jogodedados</string>
     <string name="sortear">Sortear</string>
+    <string name="text_usuario">O usuário Venceu!!</string>
+    <string name="text_pc">O pc Venceu!!</string>
+    <string name="text_empate">Empate!!</string>
 </resources>
