@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/escolha_qual_cachorro_deseja"
+        android:textColor="#ed145b"
+        android:paddingTop="30sp"
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30sp">
+     <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/border_collie_r_800_00"
+        android:checked="true"
+         android:id="@+id/rd1"
+         android:textSize="15dp"/>
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pit_bull_r_800_00"
+        android:id="@+id/rd2"
+        android:textSize="15dp"/>
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pastor_alem_o_r_700_00"
+        android:id="@+id/rd3"
+        android:textSize="15dp"/>
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pastor_canadense_r_800_00"
+        android:id="@+id/rd4"
+        android:textSize="15dp"/>
+    </RadioGroup>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/f_mea"
+        android:layout_marginTop="30dp"
+        android:id="@+id/checkboxFemea"
+        android:checked="true"
+        android:textSize="15dp"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adestrado"
+        android:id="@+id/checkboxAdestrado"
+        android:textSize="15dp"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/com_todas_as_vacinas_em_dia"
+        android:id="@+id/checkboxVacina"
+        android:textSize="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:id="@+id/btnCalc"
+        android:onClick="calcularValor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/r_00_00"
+        android:id="@+id/txtVlewResult"
+        android:textSize="60dp"
+        android:textColor="#ed145b"/>
+</LinearLayout>
+
