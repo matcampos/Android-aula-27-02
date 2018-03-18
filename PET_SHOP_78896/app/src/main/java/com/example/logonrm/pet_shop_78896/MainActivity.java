@@ -62,6 +62,6 @@ public class MainActivity extends AppCompatActivity {
 
         int total = valor + valorCheck1 + valorCheck2 + valorCheck3;
 
-        txt.setText(String.valueOf(total));
+        txt.setText("R$: "+String.valueOf(total)+",00");
     }
 }
