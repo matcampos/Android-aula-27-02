@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpinnerEAdapter.iml" filepath="$PROJECT_DIR$/SpinnerEAdapter.iml" />
+      <module fileurl="file://C:\Users\logonrm\Desktop\Android-aula-27-02\SpinnerEAdapter\SpinnerEAdapter.iml" filepath="C:\Users\logonrm\Desktop\Android-aula-27-02\SpinnerEAdapter\SpinnerEAdapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\logonrm\Desktop\Android-aula-27-02\SpinnerEAdapter\app\app.iml" filepath="C:\Users\logonrm\Desktop\Android-aula-27-02\SpinnerEAdapter\app\app.iml" />
     </modules>
   </component>
 </project>
