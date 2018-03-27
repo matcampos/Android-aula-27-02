@@ -44,6 +44,12 @@
         android:text="@string/abrir_date_picker_dialog"
         android:onClick="abrirAlertComDatePickerDialog"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/abrir_time_picker"
+        android:onClick="abrirAlertComTimePickerDialog"/>
+
 
 
 

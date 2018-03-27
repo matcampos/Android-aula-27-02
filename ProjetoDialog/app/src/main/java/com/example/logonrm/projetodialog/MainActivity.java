@@ -1,11 +1,15 @@
 package com.example.logonrm.projetodialog;
 
+import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
+import android.app.TimePickerDialog;
 import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.DatePicker;
+import android.widget.TimePicker;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -85,6 +89,30 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void abrirAlertComDatePickerDialog(View view) {
-        
+        DatePickerDialog picker = new DatePickerDialog(this, new DatePickerDialog.OnDateSetListener() {
+            @Override
+            public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+
+                Toast.makeText(MainActivity.this, dayOfMonth+"/"+(month+1)+"/"+year, Toast.LENGTH_SHORT).show();
+                    }
+                },
+                2018,
+                3,
+                27);
+        picker.show();
+    }
+
+    public void abrirAlertComTimePickerDialog(View view) {
+        TimePickerDialog tp = new TimePickerDialog(this, new TimePickerDialog.OnTimeSetListener() {
+            @Override
+            public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+                Toast.makeText(MainActivity.this, hourOfDay+":"+minute, Toast.LENGTH_SHORT).show();
+            }
+        },20,
+                35,
+                true
+
+        );
+        tp.show();
     }
 }

@@ -20,4 +20,5 @@
     <string name="eu_sou_em_progress_dialog">Eu sou um progress Dialog</string>
     <string name="aguarde_estamos_carregando_o_seu_dado">Aguarde, estamos carregando o seu dado!</string>
     <string name="abrir_date_picker_dialog">Abrir date picker dialog</string>
+    <string name="abrir_time_picker">Abrir time picker</string>
 </resources>
