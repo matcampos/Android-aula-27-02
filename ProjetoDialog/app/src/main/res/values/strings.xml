@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ProjetoDialog</string>
+    <string name="eusouumalert">eu sou um alert</string>
+    <string name="conteudo_alert">Conteudo Alert</string>
+    <string name="ok">Ok</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cancelado">Cancelado!!</string>
+    <string name="funcionou">Funcionou!!</string>
+    <string name="abrir_alert">Abrir alert</string>
+    <string name="abrir_alert_com_itens">Abrir alert com itens</string>
+    <string name="alert_com_itens">Eu sou um alert com itens</string>
+    <string name="voce_selecionou">Você selecionou: </string>
+    <string name="alert_com_radio">Alert Com radio</string>
+    <string name="vc_selecionou">Voce Selecionou: </string>
+    <string name="alert_com_radiob">Eu sou um alert dialog com radio</string>
+    <string name="voce_seleconou_o_radio">Você selecionou o radio:</string>
+    <string name="alert_com_check">alert com check</string>
+    <string name="alert_com_check_">Eu sou um alert com check</string>
+    <string name="abrir_progressdialog">Abrir ProgressDialog</string>
+    <string name="eu_sou_em_progress_dialog">Eu sou um progress Dialog</string>
+    <string name="aguarde_estamos_carregando_o_seu_dado">Aguarde, estamos carregando o seu dado!</string>
+    <string name="abrir_date_picker_dialog">Abrir date picker dialog</string>
+</resources>
