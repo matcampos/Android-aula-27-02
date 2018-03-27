@@ -21,4 +21,6 @@
     <string name="aguarde_estamos_carregando_o_seu_dado">Aguarde, estamos carregando o seu dado!</string>
     <string name="abrir_date_picker_dialog">Abrir date picker dialog</string>
     <string name="abrir_time_picker">Abrir time picker</string>
+    <string name="abrir_dialog_personalizado">Abrir dialog personalizado</string>
+    <string name="dialog_personalizado">DialogPersonalizado</string>
 </resources>

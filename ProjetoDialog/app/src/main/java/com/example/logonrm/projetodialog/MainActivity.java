@@ -1,6 +1,7 @@
 package com.example.logonrm.projetodialog;
 
 import android.app.DatePickerDialog;
+import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.app.TimePickerDialog;
 import android.content.DialogInterface;
@@ -114,5 +115,12 @@ public class MainActivity extends AppCompatActivity {
 
         );
         tp.show();
+    }
+
+    public void abrirDialogPersonalizado(View view) {
+        Dialog dialog = new Dialog(this);
+        dialog.setTitle(R.string.dialog_personalizado);
+        dialog.setContentView(R.layout.dialog_persolanizado);
+        dialog.show();
     }
 }
