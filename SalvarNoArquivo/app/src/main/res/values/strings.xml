@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SalvarNoArquivo</string>
+    <string name="salvar">SALVAR</string>
+    <string name="login">Login</string>
+    <string name="erro_escrever">Erro ao escrever arquivo</string>
+    <string name="salvarerr">Erro ao salvar arquivo</string>
+    <string name="salvarSucesss">Informações salvas com sucesso!</string>
+    <string name="lr">Erro ao ler</string>
+    <string name="abrir">Erro ao abrir</string>
+</resources>

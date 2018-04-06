@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Arquivos</string>
+    <string name="salvar">salvar</string>
+    <string name="informações_salvas_com_sucesso">Informações salvas com sucesso!</string>
+    <string name="ewrro_ao_criar_arquivo">Erro ao criar o arquivo</string>
+    <string name="erro_ao_escrever_o_arquivo">Erro ao escrever o arquivo</string>
+    <string name="ler_arquivo">ler arquivo</string>
+    <string name="abrir">Não foi possível abrir o arquivo</string>
+    <string name="ler">Não foi possível ler o arquivo</string>
+</resources>

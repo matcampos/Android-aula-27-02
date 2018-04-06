@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimensão_padrão">16sp</dimen>
+    <dimen name="dimensao_padrao_dp">16dp</dimen>
+</resources>
