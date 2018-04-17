@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExercicioCarro</string>
+    <string name="carro_1">CARRO 1</string>
+    <string name="carro_2">CARRO 2</string>
+</resources>
