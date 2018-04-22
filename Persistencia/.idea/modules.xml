@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Persistencia.iml" filepath="$PROJECT_DIR$/Persistencia.iml" />
-      <module fileurl="file://C:\Users\logonrm\Desktop\Android-aula-27-02\Persistencia\Persistencia.iml" filepath="C:\Users\logonrm\Desktop\Android-aula-27-02\Persistencia\Persistencia.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\logonrm\Desktop\Android-aula-27-02\Persistencia\app\app.iml" filepath="C:\Users\logonrm\Desktop\Android-aula-27-02\Persistencia\app\app.iml" />
     </modules>
   </component>
 </project>

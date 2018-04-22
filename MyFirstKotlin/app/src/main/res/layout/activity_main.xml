@@ -22,4 +22,13 @@
         android:layout_marginTop="30sp"
         android:onClick="change"/>
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Mudar"
+        android:layout_marginTop="30sp"
+        android:onClick="change2"/>
+
 </LinearLayout>

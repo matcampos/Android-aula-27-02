@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Pizzaria</string>
+    <string name="usuario">Usuario</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="pizza_portuguesa">Pizza Portuguesa</string>
+    <string name="valor_r_45_o0">Valor: R$:45.O0</string>
+    <string name="pizza_palmito">Pizza Palmito</string>
+    <string name="r_40_00">Valor: R$:40,00</string>
+    <string name="pizza_calabresa">Pizza Calabresa</string>
+    <string name="valor_r_43_00">Valor: R$:43.00</string>
+    <string name="mais_informa_es">mais informações</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ingredientes">Ingredientes:</string>
+    <string name="calorias">Aproximadamente 1400 calorias</string>
+    <string name="txtCAlorias">Calorias:</string>
+    <string name="ingredientes_portiguesa">Queijo, Presunto, Ovo oregano, Massa , Molho de tomate</string>
+    <string name="ingredientes_palmito">Massa, palmito, molho de tomate, queijo, oregano</string>
+    <string name="voltar">Voltar</string>
+    <string name="ingredientes_calabresa">Calabresa, Molho de tomate, queijo, oregano</string>
+    <string name="configura_es">Configurações</string>
+    <string name="salvar">salvar</string>
+
+</resources>

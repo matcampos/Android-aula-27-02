@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">]
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/configura_es"
+        android:onClick="openConfiguration"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/portuguesa"
+            android:layout_width="99dp"
+            android:layout_height="75dp"
+            android:src="@drawable/portuguesa" />
+
+        <TextView
+            android:id="@+id/nomePt"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/portuguesa"
+            android:layout_marginLeft="110dp"
+            android:text="@string/pizza_portuguesa"></TextView>
+
+        <TextView
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/nomePt"
+            android:text="@string/valor_r_45_o0"></TextView>
+
+        <Button
+            android:layout_width="116dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/mais_informa_es"
+            android:textSize="8sp"
+            android:onClick="abrirFragment1"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/palmito"
+            android:layout_width="99dp"
+            android:layout_height="75dp"
+            android:src="@drawable/palmito" />
+
+        <TextView
+            android:id="@+id/nomePa"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/palmito"
+            android:layout_marginLeft="110dp"
+            android:text="@string/pizza_palmito"></TextView>
+
+        <TextView
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/nomePa"
+            android:text="@string/r_40_00"></TextView>
+
+        <Button
+            android:layout_width="116dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/mais_informa_es"
+            android:textSize="8sp"
+            android:onClick="abrirFragment2"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/calabresa"
+            android:layout_width="99dp"
+            android:layout_height="75dp"
+            android:src="@drawable/calabresa" />
+
+        <TextView
+            android:id="@+id/nomeCl"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/calabresa"
+            android:layout_marginLeft="110dp"
+            android:text="@string/pizza_calabresa"></TextView>
+
+        <TextView
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/nomeCl"
+            android:text="@string/valor_r_43_00"></TextView>
+
+        <Button
+            android:layout_width="116dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/mais_informa_es"
+            android:textSize="8sp"
+            android:onClick="abrirFragment3"/>
+
+    </RelativeLayout>
+</LinearLayout>

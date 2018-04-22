@@ -2,6 +2,7 @@ package com.mathe.myfirstkotlin
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.ImageView
 import kotlinx.android.synthetic.main.activity_main.*
@@ -12,7 +13,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
         fun change(view: View) {
-
             imageView.setImageResource(R.drawable.strokes2);
+        }
+
+        fun change2(view:View){
+            imageView.setImageResource(R.drawable.strokes);
         }
     }
