@@ -21,7 +21,7 @@ public class BancoPizzas extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         String sql="CREATE TABLE "+TB_CONTATOS+" ( "+
                 "`id`INTEGER PRIMARY KEY AUTOINCREMENT," +
-                "`nome` TEXT ," +
+                "`descricao` TEXT ," +
                 "`data` TEXT "+
                 ")";
         db.execSQL(sql);
@@ -36,7 +36,7 @@ public class BancoPizzas extends SQLiteOpenHelper {
         SQLiteDatabase db = getWritableDatabase();
         ContentValues cv = new ContentValues();
         cv.put("descricao",log.getDescricao());
-        cv.put("data",log.getData().toString());
+        cv.put("data",String.valueOf(log.getData()));
         db.insert(TB_CONTATOS,null,cv);
     }
 

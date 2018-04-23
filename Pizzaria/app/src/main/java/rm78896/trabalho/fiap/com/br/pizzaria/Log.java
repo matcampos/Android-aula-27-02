@@ -9,12 +9,12 @@ import java.sql.Date;
 public class Log {
     private int id;
     private String descricao;
-    private java.util.Date data;
+    private long data;
 
     public Log() {
     }
 
-    public Log(int id, String descricao, Date data) {
+    public Log(int id, String descricao, long data) {
         this.id = id;
         this.descricao = descricao;
         this.data = data;
@@ -36,11 +36,11 @@ public class Log {
         this.descricao = descricao;
     }
 
-    public java.util.Date getData() {
+    public long getData() {
         return data;
     }
 
-    public void setData(java.util.Date data) {
+    public void setData(long data) {
         this.data = data;
     }
 }

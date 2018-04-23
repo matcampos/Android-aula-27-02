@@ -18,8 +18,9 @@ public class ListPizzasActivity extends AppCompatActivity {
 
         Log log = new Log();
         java.util.Date currentTime = Calendar.getInstance().getTime();
-        log.setDescricao("Fiap acessou o app");
-        log.setData(currentTime);
+        log.setDescricao("ListPizzasActivity");
+        long time = currentTime.getTime();
+        log.setData(time);
         db.insertLog(log);
     }
 
