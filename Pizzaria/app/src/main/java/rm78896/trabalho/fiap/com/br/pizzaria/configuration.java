@@ -43,7 +43,7 @@ public class configuration extends AppCompatActivity {
     }
 
     public void recuperar(View view) {
-        int nome = sp.getInt("nome", 0);
+        int nome = sp.getInt("seconds", 0);
         Toast.makeText(this, String.valueOf(nome), Toast.LENGTH_SHORT).show();
     }
 }

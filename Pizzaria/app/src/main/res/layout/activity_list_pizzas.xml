@@ -23,15 +23,17 @@
             android:id="@+id/nomePt"
             android:layout_width="274dp"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/portuguesa"
-            android:layout_marginLeft="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView4"
             android:text="@string/pizza_portuguesa"></TextView>
 
         <TextView
+            android:id="@+id/textView4"
             android:layout_width="274dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
             android:layout_below="@+id/nomePt"
+            android:layout_marginStart="47dp"
+            android:layout_toEndOf="@+id/portuguesa"
             android:text="@string/valor_r_45_o0"></TextView>
 
         <Button
@@ -39,11 +41,9 @@
             android:layout_height="32dp"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="20dp"
+            android:onClick="abrirFragment1"
             android:text="@string/mais_informa_es"
-            android:textSize="8sp"
-            android:onClick="abrirFragment1"/>
+            android:textSize="8sp" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -60,27 +60,28 @@
             android:id="@+id/nomePa"
             android:layout_width="274dp"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/palmito"
-            android:layout_marginLeft="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView2"
             android:text="@string/pizza_palmito"></TextView>
 
         <TextView
+            android:id="@+id/textView2"
             android:layout_width="274dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_below="@+id/nomePa"
+            android:layout_alignTop="@+id/button"
+            android:layout_marginStart="44dp"
+            android:layout_toEndOf="@+id/palmito"
             android:text="@string/r_40_00"></TextView>
 
         <Button
+            android:id="@+id/button"
             android:layout_width="116dp"
             android:layout_height="32dp"
             android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="20dp"
+            android:layout_below="@+id/nomePa"
+            android:onClick="abrirFragment2"
             android:text="@string/mais_informa_es"
-            android:textSize="8sp"
-            android:onClick="abrirFragment2"/>
+            android:textSize="8sp" />
 
     </RelativeLayout>
 
@@ -98,15 +99,17 @@
             android:id="@+id/nomeCl"
             android:layout_width="274dp"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/calabresa"
-            android:layout_marginLeft="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView3"
             android:text="@string/pizza_calabresa"></TextView>
 
         <TextView
+            android:id="@+id/textView3"
             android:layout_width="274dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
             android:layout_below="@+id/nomeCl"
+            android:layout_marginStart="45dp"
+            android:layout_toEndOf="@+id/calabresa"
             android:text="@string/valor_r_43_00"></TextView>
 
         <Button
@@ -114,11 +117,9 @@
             android:layout_height="32dp"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="20dp"
+            android:onClick="abrirFragment3"
             android:text="@string/mais_informa_es"
-            android:textSize="8sp"
-            android:onClick="abrirFragment3"/>
+            android:textSize="8sp" />
 
     </RelativeLayout>
 </LinearLayout>

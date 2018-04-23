@@ -17,14 +17,13 @@ public class SplashActivity extends AppCompatActivity {
         sp = getPreferences(MODE_PRIVATE);
 
         int second = sp.getInt("seconds", 10000);
-        Toast.makeText(this, String.valueOf(second), Toast.LENGTH_SHORT).show();
 
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
                 mostrarMainActivity();
             }
-        },2000);
+        },second);
     }
 
     private void mostrarMainActivity() {

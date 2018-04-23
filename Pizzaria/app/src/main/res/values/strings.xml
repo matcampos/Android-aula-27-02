@@ -22,5 +22,8 @@
     <string name="ingredientes_calabresa">Calabresa, Molho de tomate, queijo, oregano</string>
     <string name="configura_es">Configurações</string>
     <string name="salvar">salvar</string>
+    <string name="recuperar">recuperar</string>
+    <string name="numero_de_segundos_spash_screen">Numero de segundos spash screen</string>
+    <string name="insira_um_numero_de_3_a_30">Insira um numero de 3 a 30</string>
 
 </resources>
