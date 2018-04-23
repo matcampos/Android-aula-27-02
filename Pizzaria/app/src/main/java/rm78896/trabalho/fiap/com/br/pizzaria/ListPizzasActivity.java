@@ -1,16 +1,26 @@
 package rm78896.trabalho.fiap.com.br.pizzaria;
-
+import java.util.Calendar;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
+
+import java.sql.Date;
 
 public class ListPizzasActivity extends AppCompatActivity {
-
+    BancoPizzas db;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_pizzas);
+        db = new BancoPizzas(this);
+
+        Log log = new Log();
+        java.util.Date currentTime = Calendar.getInstance().getTime();
+        log.setDescricao("Fiap acessou o app");
+        log.setData(currentTime);
+        db.insertLog(log);
     }
 
     public void abrirFragment1(View view) {
@@ -44,4 +54,6 @@ public class ListPizzasActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
+
 }
