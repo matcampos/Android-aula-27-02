@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AsyncTask</string>
+    <string name="download">Download</string>
+    <string name="aguarde">aguarde...</string>
+    <string name="estamos_realizando_o_download">Estamos realizando o download</string>
+</resources>
