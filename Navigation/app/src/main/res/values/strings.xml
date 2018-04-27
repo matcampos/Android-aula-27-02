@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Navigation</string>
+    <string name="abrir">Abrir</string>
+    <string name="fechar">Fechar</string>
+    <string name="sair">Sair</string>
+    <string name="sobre">Sobre</string>
+    <string name="clicou_no_sobre">Clicou no sobre</string>
+</resources>
