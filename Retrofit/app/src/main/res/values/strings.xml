@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Retrofit</string>
+    <string name="erro_colsulta_api">Ocorreu um erro ao consultar a api</string>
+</resources>
